@@ -1,0 +1,8 @@
+[
+	"gauge",
+	"run",
+	"--env",
+	"default",
+	"--dir=D:\\opt\\codex\\docker-practices\\test-robot-01",
+	"D:\\opt\\codex\\docker-practices\\test-robot-01\\specs"
+]

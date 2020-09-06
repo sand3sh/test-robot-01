@@ -1,0 +1,28 @@
+03-09-2020 09:29:32.647 [Gauge] [INFO] Watching directory: d:\opt\codex\docker-practices\test-robot-01\specs
+03-09-2020 09:29:32.732 [Gauge] [DEBUG] Found 1 files
+03-09-2020 09:29:32.749 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-09-2020 09:29:32.762 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-09-2020 09:29:32.762 [Gauge] [DEBUG] Adding specs from d:\opt\codex\docker-practices\test-robot-01\specs\example.spec
+03-09-2020 09:29:32.762 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-09-2020 09:29:32.764 [Gauge] [DEBUG] Current runner is not compatible with gauge LSP.
+03-09-2020 09:29:32.764 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+03-09-2020 09:29:32.784 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+06-09-2020 08:57:56.998 [Gauge] [INFO] Connection closed
+06-09-2020 08:57:57.069 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+06-09-2020 08:59:03.837 [Gauge] [INFO] Watching directory: d:\opt\codex\docker-practices\test-robot-01\specs
+06-09-2020 08:59:03.842 [Gauge] [DEBUG] Found 1 files
+06-09-2020 08:59:03.918 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+06-09-2020 08:59:03.923 [Gauge] [INFO] Initializing specs cache with 1 specs
+06-09-2020 08:59:03.923 [Gauge] [DEBUG] Adding specs from d:\opt\codex\docker-practices\test-robot-01\specs\example.spec
+06-09-2020 08:59:03.923 [Gauge] [INFO] Initializing steps cache with 1 steps
+06-09-2020 08:59:03.941 [Gauge] [INFO] Starting language runner
+06-09-2020 08:59:32.407 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 08:59:32.407 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 08:59:32.407 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 08:59:34.448 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55372
+06-09-2020 08:59:34.665 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55372
+06-09-2020 08:59:34.665 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+06-09-2020 08:59:34.966 [Gauge] [DEBUG] Validation started.
+06-09-2020 08:59:35.109 [Gauge] [DEBUG] Validation completed.
+06-09-2020 08:59:35.141 [Gauge] [DEBUG] Validation started.
+06-09-2020 08:59:35.159 [Gauge] [DEBUG] Validation completed.

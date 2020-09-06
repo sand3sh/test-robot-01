@@ -1,0 +1,444 @@
+06-09-2020 08:48:59.920 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 08:49:00.101 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 08:49:00.152 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 08:49:00.158 [Gauge] [DEBUG] Parsing started.
+06-09-2020 08:49:00.158 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 08:49:00.333 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 08:49:00.335 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 08:49:00.345 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 08:49:00.345 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 08:49:00.357 [Gauge] [DEBUG] Staring java runner
+06-09-2020 08:49:21.451 [Gauge] [DEBUG] Checking updates...
+06-09-2020 08:49:21.575 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:49:23.853 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 08:49:23.853 [Gauge] [DEBUG] Validation started.
+06-09-2020 08:49:30.865 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 08:49:30.866 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 08:49:30.884 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 08:49:30.884 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 08:49:30.885 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 08:49:30.885 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 08:49:33.515 [Gauge] [DEBUG] Validation completed.
+06-09-2020 08:49:33.523 [Gauge] [DEBUG] Run started
+06-09-2020 08:49:33.564 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 08:49:35.042 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 08:49:35.042 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 08:49:35.141 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 08:49:35.141 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 08:49:35.141 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 08:49:51.577 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 128.199.185.38:443: i/o timeout
+06-09-2020 08:49:51.591 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:50:21.601 [Gauge] [DEBUG] Failed to download java-install.json file: Get https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 128.199.185.38:443: i/o timeout
+06-09-2020 08:50:21.663 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:50:51.665 [Gauge] [DEBUG] Failed to download json-report-install.json file: Get https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 134.209.106.40:443: i/o timeout
+06-09-2020 08:50:51.704 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:51:21.705 [Gauge] [DEBUG] Failed to download screenshot-install.json file: Get https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 134.209.106.40:443: i/o timeout
+06-09-2020 08:52:09.799 [Gauge] [ERROR] Error Message: io.github.bonigarcia.wdm.WebDriverManagerException: org.apache.http.conn.HttpHostConnectException: Connect to npm.taobao.org:80 [npm.taobao.org/114.55.80.225] failed: Connection timed out: connect
+06-09-2020 08:52:09.799 [Gauge] [ERROR] Stacktrace: 
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:754)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+driver.DriverFactory.getDriver(DriverFactory.java:29)
+driver.Driver.initializeDriver(Driver.java:16)
+06-09-2020 08:52:09.799 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+06-09-2020 08:52:09.799 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+06-09-2020 08:52:09.805 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 08:52:13.687 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 08:52:13.778 [Gauge] [DEBUG] Plugin [Html Report] with pid [31428] has exited
+06-09-2020 08:52:13.778 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 08:52:13.952 [Gauge] [INFO] Closing connection [127.0.0.1:54682] cause: read tcp 127.0.0.1:54626->127.0.0.1:54682: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 08:52:14.081 [Gauge] [DEBUG] Runner with PID:30004 has exited
+06-09-2020 08:52:14.081 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 08:52:14.081 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 08:52:14.081 [Gauge] [INFO] 
+Total time taken: 2m36.275s
+06-09-2020 08:52:23.573 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 08:52:23.609 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 08:52:23.627 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 08:52:23.631 [Gauge] [DEBUG] Parsing started.
+06-09-2020 08:52:23.631 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 08:52:23.712 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 08:52:23.713 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 08:52:23.717 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 08:52:23.717 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 08:52:23.723 [Gauge] [DEBUG] Staring java runner
+06-09-2020 08:52:43.295 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 08:52:43.295 [Gauge] [DEBUG] Validation started.
+06-09-2020 08:52:44.718 [Gauge] [DEBUG] Checking updates...
+06-09-2020 08:52:44.751 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:52:46.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 08:52:46.795 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 08:52:46.807 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 08:52:46.807 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 08:52:46.808 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 08:52:46.808 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 08:52:48.598 [Gauge] [DEBUG] Validation completed.
+06-09-2020 08:52:48.599 [Gauge] [DEBUG] Run started
+06-09-2020 08:52:48.608 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 08:52:49.136 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 08:52:49.137 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 08:52:49.202 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 08:52:49.202 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 08:52:49.202 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 08:53:14.753 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.43.191:443: i/o timeout
+06-09-2020 08:53:14.790 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:53:44.792 [Gauge] [DEBUG] Failed to download java-install.json file: Get https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.45.115:443: i/o timeout
+06-09-2020 08:53:44.826 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:54:14.829 [Gauge] [DEBUG] Failed to download json-report-install.json file: Get https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.43.191:443: i/o timeout
+06-09-2020 08:54:14.873 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:54:44.874 [Gauge] [DEBUG] Failed to download screenshot-install.json file: Get https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.35.153:443: i/o timeout
+06-09-2020 08:55:20.019 [Gauge] [ERROR] Error Message: io.github.bonigarcia.wdm.WebDriverManagerException: org.apache.http.conn.HttpHostConnectException: Connect to npm.taobao.org:80 [npm.taobao.org/114.55.80.225] failed: Connection timed out: connect
+06-09-2020 08:55:20.019 [Gauge] [ERROR] Stacktrace: 
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:754)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+driver.DriverFactory.getDriver(DriverFactory.java:29)
+driver.Driver.initializeDriver(Driver.java:16)
+06-09-2020 08:55:20.021 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+06-09-2020 08:55:20.021 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+06-09-2020 08:55:20.031 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 08:55:20.222 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 08:55:20.265 [Gauge] [DEBUG] Plugin [Html Report] with pid [22104] has exited
+06-09-2020 08:55:20.265 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 08:55:20.459 [Gauge] [INFO] Closing connection [127.0.0.1:54848] cause: read tcp 127.0.0.1:54827->127.0.0.1:54848: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 08:55:20.567 [Gauge] [DEBUG] Runner with PID:39524 has exited
+06-09-2020 08:55:20.567 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 08:55:20.567 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 08:55:20.567 [Gauge] [INFO] 
+Total time taken: 2m31.42s
+06-09-2020 08:58:55.580 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 08:58:55.648 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 08:58:55.754 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 08:58:55.772 [Gauge] [DEBUG] Parsing started.
+06-09-2020 08:58:55.772 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 08:58:55.931 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 08:58:55.932 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 08:58:55.936 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 08:58:55.937 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 08:58:55.947 [Gauge] [DEBUG] Staring java runner
+06-09-2020 08:59:17.884 [Gauge] [DEBUG] Checking updates...
+06-09-2020 08:59:17.956 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 08:59:18.699 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 08:59:18.699 [Gauge] [DEBUG] Validation started.
+06-09-2020 08:59:24.543 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 08:59:24.543 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 08:59:24.582 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 08:59:24.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 08:59:24.592 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 08:59:24.593 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 08:59:27.899 [Gauge] [DEBUG] Validation completed.
+06-09-2020 08:59:27.910 [Gauge] [DEBUG] Run started
+06-09-2020 08:59:28.123 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 08:59:29.605 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 08:59:29.605 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 08:59:29.679 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 08:59:29.679 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 08:59:29.679 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 08:59:47.956 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 128.199.185.38:443: i/o timeout
+06-09-2020 08:59:47.976 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:00:17.978 [Gauge] [DEBUG] Failed to download java-install.json file: Get https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 206.189.89.118:443: i/o timeout
+06-09-2020 09:00:18.011 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:00:48.012 [Gauge] [DEBUG] Failed to download json-report-install.json file: Get https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.45.115:443: i/o timeout
+06-09-2020 09:00:48.071 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:01:18.072 [Gauge] [DEBUG] Failed to download screenshot-install.json file: Get https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 206.189.89.118:443: i/o timeout
+06-09-2020 09:02:01.979 [Gauge] [ERROR] Error Message: io.github.bonigarcia.wdm.WebDriverManagerException: org.apache.http.conn.HttpHostConnectException: Connect to npm.taobao.org:80 [npm.taobao.org/114.55.80.225] failed: Connection timed out: connect
+06-09-2020 09:02:01.980 [Gauge] [ERROR] Stacktrace: 
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:754)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+driver.DriverFactory.getDriver(DriverFactory.java:29)
+driver.Driver.initializeDriver(Driver.java:16)
+06-09-2020 09:02:01.980 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+06-09-2020 09:02:01.980 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+06-09-2020 09:02:01.980 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:02:02.360 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:02:02.463 [Gauge] [DEBUG] Plugin [Html Report] with pid [39148] has exited
+06-09-2020 09:02:02.463 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:02:02.654 [Gauge] [INFO] Closing connection [127.0.0.1:55330] cause: read tcp 127.0.0.1:55291->127.0.0.1:55330: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:02:02.866 [Gauge] [DEBUG] Runner with PID:26216 has exited
+06-09-2020 09:02:02.866 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 09:02:02.866 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 09:02:02.866 [Gauge] [INFO] 
+Total time taken: 2m34.061s
+06-09-2020 09:05:30.974 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 09:05:31.000 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 09:05:31.010 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 09:05:31.017 [Gauge] [DEBUG] Parsing started.
+06-09-2020 09:05:31.017 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 09:05:31.086 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 09:05:31.087 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 09:05:31.091 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 09:05:31.091 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 09:05:31.094 [Gauge] [DEBUG] Staring java runner
+06-09-2020 09:05:50.804 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 09:05:50.804 [Gauge] [DEBUG] Validation started.
+06-09-2020 09:05:52.093 [Gauge] [DEBUG] Checking updates...
+06-09-2020 09:05:52.119 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:05:54.537 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 09:05:54.538 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 09:05:54.549 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 09:05:54.549 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 09:05:54.549 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 09:05:54.549 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 09:05:56.671 [Gauge] [DEBUG] Validation completed.
+06-09-2020 09:05:56.672 [Gauge] [DEBUG] Run started
+06-09-2020 09:05:56.679 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 09:05:57.180 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 09:05:57.181 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 09:05:57.230 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 09:05:57.231 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 09:05:57.231 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 09:06:22.119 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 157.230.35.153:443: i/o timeout
+06-09-2020 09:06:22.161 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:06:52.161 [Gauge] [DEBUG] Failed to download java-install.json file: Get https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 178.128.17.49:443: i/o timeout
+06-09-2020 09:06:52.204 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:07:22.205 [Gauge] [DEBUG] Failed to download json-report-install.json file: Get https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 206.189.89.118:443: i/o timeout
+06-09-2020 09:07:22.242 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:07:52.242 [Gauge] [DEBUG] Failed to download screenshot-install.json file: Get https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64: dial tcp 128.199.185.38:443: i/o timeout
+06-09-2020 09:08:29.221 [Gauge] [ERROR] Error Message: io.github.bonigarcia.wdm.WebDriverManagerException: org.apache.http.conn.HttpHostConnectException: Connect to npm.taobao.org:80 [npm.taobao.org/114.55.80.225] failed: Connection timed out: connect
+06-09-2020 09:08:29.221 [Gauge] [ERROR] Stacktrace: 
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:754)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)
+io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)
+io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)
+driver.DriverFactory.getDriver(DriverFactory.java:29)
+driver.Driver.initializeDriver(Driver.java:16)
+06-09-2020 09:08:29.222 [Gauge] [ERROR] Error Message: java.lang.NullPointerException
+06-09-2020 09:08:29.222 [Gauge] [ERROR] Stacktrace: 
+driver.Driver.closeDriver(Driver.java:22)
+06-09-2020 09:08:29.222 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:08:29.473 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:08:29.549 [Gauge] [DEBUG] Plugin [Html Report] with pid [41768] has exited
+06-09-2020 09:08:29.549 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:08:29.721 [Gauge] [INFO] Closing connection [127.0.0.1:55677] cause: read tcp 127.0.0.1:55659->127.0.0.1:55677: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:08:29.859 [Gauge] [DEBUG] Runner with PID:1488 has exited
+06-09-2020 09:08:29.860 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 09:08:29.860 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	0 skipped
+06-09-2020 09:08:29.861 [Gauge] [INFO] 
+Total time taken: 2m32.541s
+06-09-2020 09:09:22.429 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 09:09:22.452 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 09:09:22.463 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 09:09:22.466 [Gauge] [DEBUG] Parsing started.
+06-09-2020 09:09:22.466 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 09:09:22.520 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 09:09:22.521 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 09:09:22.525 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 09:09:22.525 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 09:09:22.531 [Gauge] [DEBUG] Staring java runner
+06-09-2020 09:09:24.034 [Gauge] [DEBUG] Checking updates...
+06-09-2020 09:09:24.073 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:09:25.504 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:09:25.667 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:09:25.792 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:09:26.228 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 09:09:26.228 [Gauge] [DEBUG] Validation started.
+06-09-2020 09:09:30.993 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 09:09:30.993 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 09:09:31.013 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 09:09:31.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 09:09:31.014 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 09:09:31.014 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 09:09:33.247 [Gauge] [DEBUG] Validation completed.
+06-09-2020 09:09:33.248 [Gauge] [DEBUG] Run started
+06-09-2020 09:09:33.260 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 09:09:33.976 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 09:09:33.976 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 09:09:34.039 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 09:09:34.039 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 09:09:34.039 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 09:09:51.367 [java] [INFO] Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 1567
+06-09-2020 09:09:51.368 [java] [INFO] Only local connections are allowed.
+06-09-2020 09:09:51.368 [java] [INFO] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-09-2020 09:09:51.393 [java] [INFO] ChromeDriver was started successfully.
+06-09-2020 09:10:00.824 [java] [INFO] Sep 06, 2020 9:10:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-09-2020 09:10:00.825 [java] [INFO] INFO: Detected dialect: W3C
+06-09-2020 09:10:00.864 [Gauge] [INFO] # Getting Started with Gauge
+06-09-2020 09:10:00.873 [Gauge] [INFO] ## Get Started
+06-09-2020 09:10:00.882 [Gauge] [DEBUG] * Open the Gauge homepage
+
+06-09-2020 09:10:29.991 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+06-09-2020 09:10:36.089 [Gauge] [DEBUG] * Ensure installation instructions are available
+06-09-2020 09:10:39.930 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:10:40.213 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:10:40.255 [Gauge] [DEBUG] Plugin [Html Report] with pid [6972] has exited
+06-09-2020 09:10:40.255 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:10:40.278 [Gauge] [INFO] Closing connection [127.0.0.1:61075] cause: read tcp 127.0.0.1:61057->127.0.0.1:61075: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:10:40.612 [Gauge] [DEBUG] Runner with PID:30016 has exited
+06-09-2020 09:10:40.616 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:10:40.616 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:10:40.616 [Gauge] [INFO] 
+Total time taken: 1m6.681s
+06-09-2020 09:10:40.629 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-09-2020 09:12:34.854 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 09:12:34.886 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 09:12:34.896 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 09:12:34.900 [Gauge] [DEBUG] Parsing started.
+06-09-2020 09:12:34.900 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 09:12:34.986 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 09:12:34.987 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 09:12:34.991 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 09:12:34.991 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 09:12:35.002 [Gauge] [DEBUG] Staring java runner
+06-09-2020 09:12:37.037 [Gauge] [DEBUG] Checking updates...
+06-09-2020 09:12:37.054 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:12:37.375 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 09:12:37.375 [Gauge] [DEBUG] Validation started.
+06-09-2020 09:12:37.504 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:12:37.655 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:12:37.807 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:12:41.485 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 09:12:41.485 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 09:12:41.495 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 09:12:41.495 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 09:12:41.496 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 09:12:41.496 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 09:12:43.107 [Gauge] [DEBUG] Validation completed.
+06-09-2020 09:12:43.107 [Gauge] [DEBUG] Run started
+06-09-2020 09:12:43.113 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 09:12:43.588 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 09:12:43.588 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 09:12:43.641 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 09:12:43.641 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 09:12:43.641 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 09:12:45.528 [java] [INFO] Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 34340
+06-09-2020 09:12:45.528 [java] [INFO] Only local connections are allowed.
+06-09-2020 09:12:45.528 [java] [INFO] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-09-2020 09:12:45.551 [java] [INFO] ChromeDriver was started successfully.
+06-09-2020 09:12:49.761 [java] [INFO] Sep 06, 2020 9:12:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-09-2020 09:12:49.761 [java] [INFO] INFO: Detected dialect: W3C
+06-09-2020 09:12:49.789 [Gauge] [INFO] # Getting Started with Gauge
+06-09-2020 09:12:49.806 [Gauge] [INFO] ## Get Started
+06-09-2020 09:12:49.813 [Gauge] [DEBUG] * Open the Gauge homepage
+
+06-09-2020 09:12:54.779 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+06-09-2020 09:13:01.436 [Gauge] [DEBUG] * Ensure installation instructions are available
+06-09-2020 09:13:04.131 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:13:04.362 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:13:04.437 [Gauge] [DEBUG] Plugin [Html Report] with pid [19220] has exited
+06-09-2020 09:13:04.437 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:13:04.471 [Gauge] [INFO] Closing connection [127.0.0.1:58860] cause: read tcp 127.0.0.1:58851->127.0.0.1:58860: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:13:04.638 [Gauge] [DEBUG] Runner with PID:42720 has exited
+06-09-2020 09:13:04.638 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:13:04.638 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:13:04.638 [Gauge] [INFO] 
+Total time taken: 21.024s
+06-09-2020 09:13:04.645 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-09-2020 09:25:26.330 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 09:25:26.365 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 09:25:26.378 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 09:25:26.382 [Gauge] [DEBUG] Parsing started.
+06-09-2020 09:25:26.382 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 09:25:26.448 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 09:25:26.449 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 09:25:26.452 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 09:25:26.452 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 09:25:26.457 [Gauge] [DEBUG] Staring java runner
+06-09-2020 09:25:29.030 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 09:25:29.030 [Gauge] [DEBUG] Validation started.
+06-09-2020 09:25:29.639 [Gauge] [DEBUG] Checking updates...
+06-09-2020 09:25:29.661 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:25:31.997 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:25:32.789 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:25:33.195 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 09:25:33.195 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 09:25:33.210 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 09:25:33.210 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 09:25:33.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 09:25:33.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 09:25:33.242 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:25:35.407 [Gauge] [DEBUG] Validation completed.
+06-09-2020 09:25:35.408 [Gauge] [DEBUG] Run started
+06-09-2020 09:25:35.413 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 09:25:35.855 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 09:25:35.855 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 09:25:35.906 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 09:25:35.906 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 09:25:35.906 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 09:25:37.548 [java] [INFO] Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 48812
+06-09-2020 09:25:37.549 [java] [INFO] Only local connections are allowed.
+06-09-2020 09:25:37.549 [java] [INFO] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-09-2020 09:25:37.564 [java] [INFO] ChromeDriver was started successfully.
+06-09-2020 09:25:41.566 [java] [INFO] Sep 06, 2020 9:25:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-09-2020 09:25:41.566 [java] [INFO] INFO: Detected dialect: W3C
+06-09-2020 09:25:41.597 [Gauge] [INFO] # Getting Started with Gauge
+06-09-2020 09:25:41.608 [Gauge] [INFO] ## Get Started
+06-09-2020 09:25:41.614 [Gauge] [DEBUG] * Open the Gauge homepage
+
+06-09-2020 09:25:46.471 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+06-09-2020 09:25:55.105 [Gauge] [DEBUG] * Ensure installation instructions are available
+06-09-2020 09:25:58.459 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:25:58.691 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:25:58.780 [Gauge] [DEBUG] Plugin [Html Report] with pid [41156] has exited
+06-09-2020 09:25:58.781 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:25:58.824 [Gauge] [INFO] Closing connection [127.0.0.1:57013] cause: read tcp 127.0.0.1:57005->127.0.0.1:57013: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:25:58.985 [Gauge] [DEBUG] Runner with PID:44432 has exited
+06-09-2020 09:25:58.986 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:25:58.986 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:25:58.987 [Gauge] [INFO] 
+Total time taken: 23.047s
+06-09-2020 09:25:58.993 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+06-09-2020 09:26:22.760 [Gauge] [DEBUG] Created gauge_screenshots_dir at D:\opt\codex\docker-practices\test-robot-01\.gauge\screenshots
+06-09-2020 09:26:22.840 [Gauge] [DEBUG] Plugin html-report is already installed.
+06-09-2020 09:26:22.896 [Gauge] [DEBUG] Plugin java is already installed.
+06-09-2020 09:26:22.908 [Gauge] [DEBUG] Parsing started.
+06-09-2020 09:26:22.908 [Gauge] [DEBUG] Started concepts parsing.
+06-09-2020 09:26:22.983 [Gauge] [DEBUG] 0 concepts parsing completed.
+06-09-2020 09:26:22.983 [Gauge] [DEBUG] Started specifications parsing.
+06-09-2020 09:26:22.987 [Gauge] [DEBUG] 1 specifications parsing completed.
+06-09-2020 09:26:22.987 [Gauge] [DEBUG] Parsing completed.
+06-09-2020 09:26:22.990 [Gauge] [DEBUG] Staring java runner
+06-09-2020 09:26:24.928 [Gauge] [DEBUG] Checking updates...
+06-09-2020 09:26:24.949 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:26:25.386 [Gauge] [DEBUG] Established connection to runner.
+06-09-2020 09:26:25.386 [Gauge] [DEBUG] Validation started.
+06-09-2020 09:26:26.209 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:26:26.695 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/json-report?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:26:27.145 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,json-report,screenshot&o=windows&a=amd64
+06-09-2020 09:26:29.523 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Go to Gauge Get Started Page" > 
+06-09-2020 09:26:29.523 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Go to Gauge Get Started Page" parameterizedStepValue:"Go to Gauge Get Started Page" > > 
+06-09-2020 09:26:29.538 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Open the Gauge homepage" > 
+06-09-2020 09:26:29.538 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Open the Gauge homepage" parameterizedStepValue:"Open the Gauge homepage" > > 
+06-09-2020 09:26:29.539 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Ensure installation instructions are available" > 
+06-09-2020 09:26:29.539 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Ensure installation instructions are available" parameterizedStepValue:"Ensure installation instructions are available" > > 
+06-09-2020 09:26:31.065 [Gauge] [DEBUG] Validation completed.
+06-09-2020 09:26:31.066 [Gauge] [DEBUG] Run started
+06-09-2020 09:26:31.070 [Gauge] [DEBUG] Starting Html Report plugin
+06-09-2020 09:26:31.413 [Gauge] [DEBUG] Established connection to Html Report plugin
+06-09-2020 09:26:31.413 [Gauge] [DEBUG] Initialising suite data store.
+06-09-2020 09:26:31.486 [java] [INFO] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+06-09-2020 09:26:31.486 [java] [INFO] SLF4J: Defaulting to no-operation (NOP) logger implementation
+06-09-2020 09:26:31.486 [java] [INFO] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+06-09-2020 09:26:33.464 [java] [INFO] Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4227
+06-09-2020 09:26:33.464 [java] [INFO] Only local connections are allowed.
+06-09-2020 09:26:33.464 [java] [INFO] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+06-09-2020 09:26:33.479 [java] [INFO] ChromeDriver was started successfully.
+06-09-2020 09:26:37.582 [java] [INFO] Sep 06, 2020 9:26:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+06-09-2020 09:26:37.582 [java] [INFO] INFO: Detected dialect: W3C
+06-09-2020 09:26:37.602 [Gauge] [INFO] # Getting Started with Gauge
+06-09-2020 09:26:37.608 [Gauge] [INFO] ## Get Started
+06-09-2020 09:26:37.615 [Gauge] [DEBUG] * Open the Gauge homepage
+
+06-09-2020 09:26:42.509 [Gauge] [DEBUG] * Go to Gauge Get Started Page
+06-09-2020 09:26:50.121 [Gauge] [DEBUG] * Ensure installation instructions are available
+06-09-2020 09:26:52.570 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+06-09-2020 09:26:52.745 [html-report] [INFO] Successfully generated html-report to => D:\opt\codex\docker-practices\test-robot-01\reports\html-report\index.html
+06-09-2020 09:26:52.775 [Gauge] [DEBUG] Plugin [Html Report] with pid [17760] has exited
+06-09-2020 09:26:52.775 [Gauge] [DEBUG] Sending kill message to runner.
+06-09-2020 09:26:52.806 [Gauge] [INFO] Closing connection [127.0.0.1:55555] cause: read tcp 127.0.0.1:55546->127.0.0.1:55555: wsarecv: An existing connection was forcibly closed by the remote host.
+06-09-2020 09:26:52.978 [Gauge] [DEBUG] Runner with PID:44416 has exited
+06-09-2020 09:26:52.978 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:26:52.978 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+06-09-2020 09:26:52.978 [Gauge] [INFO] 
+Total time taken: 21.503s
+06-09-2020 09:26:52.984 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
